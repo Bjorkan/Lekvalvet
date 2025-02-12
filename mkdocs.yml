@@ -9,23 +9,6 @@ theme:
   language: sv
   icon:
     logo: fontawesome/solid/people-group
-  palette:
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      toggle:
-        icon: material/brightness-7
-        name: Byt till mörkt läge
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: teal
-      toggle:
-        icon: material/brightness-4
-        name: Byt till ljust läge
 extra:
   social:
       - icon: fontawesome/brands/github
