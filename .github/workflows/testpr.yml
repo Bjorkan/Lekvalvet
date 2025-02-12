@@ -5,10 +5,10 @@ on:
       - master 
 
 jobs:
-  deploy:
+  compile:
+    name: Bygg hemsidan
     runs-on: ubuntu-latest
     steps:
-      
       - name: Hämta Pull Request
         uses: actions/checkout@v4
       - name: Förbered Python
