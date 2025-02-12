@@ -1,4 +1,4 @@
-# Lekvalvet
+# Välkommen till Lekvalvet! 🪁
 
 Lekvalvet är ett stort arkiv av många lekar som man kan leka för att skapa en bra gruppdynamik. Sidan växer hela tiden när nya förslag kommer och allt som är publicerat på sidan är licenserat under [CC0 1.0 Universiell](https://creativecommons.org/publicdomain/zero/1.0/deed.sv) vilket ger en enorm frihet att göra vad ni vill med informationen ni hittar.
 
