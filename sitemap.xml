@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://mydomain.org/mysite/</loc>
+         <lastmod>2025-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Grupp%C3%B6vningar/4manisoffan/</loc>
+         <lastmod>2025-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/L%C3%A4ra%20k%C3%A4nna/fruktsallad/</loc>
+         <lastmod>2025-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/L%C3%A4ra%20k%C3%A4nna/tacos/</loc>
+         <lastmod>2025-02-14</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/%C3%96vrigt/am%C3%B6ba/</loc>
+         <lastmod>2025-02-14</lastmod>
+    </url>
+</urlset>
