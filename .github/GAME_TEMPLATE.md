@@ -2,6 +2,11 @@
 
 En kort beskrivning av leken (1-2 meningar).
 
+## Material (valfritt)
+
+- Lista allt material som behövs
+- Om inget material behövs kan denna sektion utelämnas
+
 ## Instruktioner
 
 1. Första steget
@@ -22,6 +27,10 @@ Här är ett exempel på hur en ifylld mall kan se ut:
 # Fruktsallad
 
 En klassiker som går att leka väldigt snabbt.
+
+## Material
+
+- Stolar (en för lite än antal deltagare)
 
 ## Instruktioner
 
