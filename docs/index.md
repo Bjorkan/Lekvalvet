@@ -4,13 +4,7 @@ Lekvalvet är ett arkiv av många lekar som man kan leka för att skapa en bra g
 
 ## Hur fungerar det?
 
-Använd menyn till vänster för att navigera mellan olika kategorier av lekar:
-
-- **Lära känna** - Lekar för att hjälpa gruppen att lära känna varandra
-- **Gruppövningar** - Övningar för att bygga samarbete och gruppdynamik
-- **Övrigt** - Andra roliga lekar och aktiviteter
-
-Varje lek innehåller tydliga instruktioner och i många fall även tips på anpassningar för olika gruppers behov.
+Använd menyn till vänster för att navigera mellan olika kategorier av lekar. Varje lek innehåller tydliga instruktioner och i många fall även tips på anpassningar för olika gruppers behov.
 
 ## Bidra till Lekvalvet
 
