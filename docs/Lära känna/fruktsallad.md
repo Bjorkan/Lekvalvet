@@ -1,19 +1,22 @@
 # Fruktsallad
 
-En klassiker som går att leka väldigt snabbt.
+**Antal deltagare:**  
+Cirka 6–20 personer.
 
-## Instruktioner:
+**Material som krävs:**  
+Stolar (en färre än antalet deltagare).
 
-1. Ställ stolar i en cirkel med en stol för lite. Detta gör att en (helst spelledaren) får stå i mitten till att börja med.
+---
 
-2. Dela upp alla i olika fruktlag (exempelvis: banan, äpple, päron).
+## Instruktioner
 
-3. Personen i mitten säger sedan en frukt och alla som blev tilldelad den frukten behöver nu byta stol. Då det är en stol för lite kommer en ny person hamna i mitten.
+1. Ställ stolar i en cirkel med en stol för lite, så att en person (gärna spelledaren) börjar stå i mitten.  
+2. Dela upp deltagarna i olika fruktlag, till exempel banan, äpple och päron.  
+3. Personen i mitten säger en frukt, och alla som tillhör den frukten måste byta stol. Eftersom det finns en stol för lite hamnar en ny person i mitten.  
+4. Om personen i mitten säger “fruktsallad” måste alla byta plats.
 
-4. Skulle personen i mitten säga fruktsallad måste alla byta plats.
+---
 
 ## Anpassningar
 
-Vill du göra det svårare kan du testa något av följande:
-
-1. Så fort det finns en tom plats bredvid dig till höger måste du flytta dig till den platsen. Detta gör det svårare för de som inte fått en plats ännu att kunna sätta sig ner.
+För att göra leken svårare kan man införa regeln att så fort det finns en tom plats till höger måste man flytta sig dit. Detta gör det mer utmanande för dem som försöker hitta en ledig stol.
