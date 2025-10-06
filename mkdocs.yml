@@ -1,6 +1,9 @@
 site_name: Lekvalvet
 site_url: https://mydomain.org/mysite
-copyright: Lekbanken is marked with CC0 1.0 Universal
+copyright: >
+  💡 <strong>Licens:</strong> Innehållet i Lekvalvet är publicerat under
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.sv" target="_blank">CC0 1.0 Universell</a>.
+  Det är fritt att använda, ändra och dela utan begränsningar.
 plugins:
   - meta
   - tags
@@ -10,6 +13,8 @@ theme:
   language: sv
   icon:
     logo: fontawesome/solid/people-group
+  features:
+    - navigation.footer
   palette:
 
     # Palette toggle for light mode
@@ -29,5 +34,5 @@ theme:
         name: Byt till ljust läge
 extra:
   social:
-      - icon: fontawesome/brands/github
-        link: https://github.com/Bjorkan/Lekvalvet
+    - icon: fontawesome/brands/github
+      link: https://github.com/Bjorkan/Lekvalvet
