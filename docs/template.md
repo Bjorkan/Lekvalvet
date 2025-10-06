@@ -6,31 +6,29 @@ Syftet är att skapa en enhetlig struktur som gör lekarna lätta att läsa och 
 
 ---
 
-## Lekinformation
-
-**Namn på leken:**  
-_Skriv lektiteln här._
+# Namn på leken
 
 **Antal deltagare:**  
-_Anges som ett ungefärligt intervall, t.ex. 6–20 personer._
+Cirka 6–20 personer.
 
 **Material som krävs:**  
-_Lista det som behövs för att genomföra leken, eller skriv “Inget”._
+Inget.
 
 ---
 
 ## Instruktioner
 
-1. _Förberedelser inför leken — beskriv hur deltagarna ska placeras, vilket utrymme som behövs och om något ska förberedas i förväg._
-2. _Förklara steg för steg hur leken går till, inklusive eventuella regler eller särskilda moment._
+1. Beskriv förberedelser inför leken — hur deltagarna ska placeras, vilket utrymme som behövs och om något ska förberedas i förväg.  
+2. Förklara steg för steg hur leken går till, inklusive eventuella regler eller särskilda moment.
 
 ---
 
 ## Anpassningar
 
-_Förslag på hur leken kan anpassas för olika åldrar, gruppstorlekar eller svårighetsnivåer._  
-_Till exempel: hur man gör leken enklare, snabbare, roligare eller mer utmanande._
+Förslag på hur leken kan anpassas för olika åldrar, gruppstorlekar eller svårighetsnivåer.  
+Till exempel hur man gör leken enklare, snabbare, roligare eller mer utmanande.
 
 ---
 
-> 💡 **Notis:** När en ny lek läggs till i Lekvalvet publiceras den under [CC0 1.0 Universell](https://creativecommons.org/publicdomain/zero/1.0/deed.sv), vilket innebär att innehållet blir fritt att använda, ändra och dela utan begränsningar.
+> 💡 **Notis:** När en ny lek läggs till i Lekvalvet publiceras den under [CC0 1.0 Universell](https://creativecommons.org/publicdomain/zero/1.0/deed.sv), vilket innebär att innehållet blir fritt att använda, ändra och dela utan begränsningar.  
+> Denna notis ska **inte** kopieras in i själva leken.
