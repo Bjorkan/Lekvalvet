@@ -36,3 +36,6 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Bjorkan/Lekvalvet
+
+markdown_extensions:
+  - admonition
