@@ -11,8 +11,8 @@ plugins:
 theme:
   name: material
   language: sv
-  icon:
-    logo: fontawesome/solid/people-group
+  logo: assets/logo.png
+  favicon: assets/favicon.png
   features:
     - navigation.footer
   palette:
