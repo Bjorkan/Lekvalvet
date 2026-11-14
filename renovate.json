@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "timezone": "Europe/Stockholm",
+  "minimumReleaseAge": "14 days",
+  "minimumReleaseAgeBehaviour": "timestamp-required",
+  "internalChecksFilter": "strict",
+  "internalChecksAsSuccess": true,
+  "prCreation": "not-pending",
+  "automerge": true,
+  "automergeType": "pr",
+  "platformAutomerge": true,
+  "vulnerabilityAlerts": {
+    "minimumReleaseAge": "14 days",
+    "prCreation": "not-pending"
+  },
+  "lockFileMaintenance": {
+    "enabled": true,
+    "minimumReleaseAge": null,
+    "schedule": ["before 4am on monday"]
+  }
+}

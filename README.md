@@ -35,8 +35,47 @@ Syftet med detta är att säkerställa att hela Lekvalvet förblir ett **helt fr
 
 ## Teknisk information
 
-- **Ramverk:** Projektet är byggt med [**Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/), som är licensierat under [**MIT-licensen**](https://github.com/squidfunk/mkdocs-material?tab=MIT-1-ov-file#readme).  
+- **Ramverk:** Projektet byggs med [**Zensical**](https://zensical.org/) och använder konfigurationen i `mkdocs.yml`.
 - **Hosting:** Webbplatsen publiceras via **GitHub Pages**, en tjänst som ägs och tillhandahålls av **Microsoft**.
+
+### Utveckla och bygga lokalt
+
+Installera [uv](https://docs.astral.sh/uv/getting-started/installation/). Projektets uv-version anges i `pyproject.toml` och Python-versionen i `.python-version`. uv hämtar Python automatiskt vid behov.
+
+```sh
+uv sync --locked
+uv run --locked zensical serve
+```
+
+Kör samma kontroll som i CI innan du skickar in en ändring:
+
+```sh
+uv run --locked zensical build --clean --strict
+```
+
+`--strict` gör att bygget misslyckas vid valideringsvarningar, exempelvis trasiga interna länkar. Resultatet skrivs till `site/`.
+
+Alla beroenden låses i `uv.lock`, som ska checkas in. Uppdatera dem med `uv lock --upgrade`, kör strict-bygget igen och checka in den uppdaterade låsfilen tillsammans med eventuella ändringar i `pyproject.toml`.
+
+### CI och publicering
+
+GitHub Actions kör kontrollen **Build (strict)** för pull requests till `master`, vid push till `master`, i merge-kön och vid manuell körning. `uv sync --locked` avbryter om låsfilen saknas eller inte stämmer med projektets beroenden.
+
+Efter ett godkänt bygge på `master` publiceras samma byggartefakt till GitHub Pages i ett separat jobb. Bara publiceringsjobbet har skrivrättigheter för Pages och tillgång till en OIDC-token. Actions är låsta till fullständiga commit-hashar, och utcheckningen sparar inga GitHub-inloggningsuppgifter.
+
+I repots GitHub-inställningar ska **Pages → Build and deployment → Source** vara **GitHub Actions**. För att förhindra att ändringar med underkända byggen slås ihop, konfigurera en branch rule/ruleset för `master` som kräver pull requests och statuskontrollen **Build (strict)** samt att grenen är uppdaterad eller använder merge-kön. Även undantag från regeln behöver begränsas. Dessa inställningar hanteras i GitHub och aktiveras inte av workflow-filen.
+
+### Beroendeuppdateringar med Renovate
+
+`renovate.json` konfigurerar Renovate för beroendeuppdateringar och behåller GitHub Actions låsta till commit-hashar. Renovate behöver vara aktiverat för repot.
+
+Nya versioner måste ha varit publicerade i minst **14 dagar** innan Renovate föreslår dem. Versioner utan publiceringsdatum hålls tillbaka. Regeln gäller även säkerhetsuppdateringar. Det är versionens publiceringsdatum som räknas, inte hur länge en pull request har varit öppen.
+
+**Lock file maintenance** är det enda undantaget från ålderskravet och körs på måndagar före 04:00 svensk tid. Även dessa pull requests måste klara **Build (strict)**.
+
+GitHubs inbyggda automerge är aktiverat i Renovate. Pull requests hålls tillbaka tills ålderskontrollen är klar, även för säkerhetsuppdateringar. Aktivera **Settings → General → Allow auto-merge** i GitHub och gör **Build (strict)** till en obligatorisk statuskontroll för `master`, så att GitHub inväntar ett godkänt strict-bygge innan automatisk merge. Dessa repo-inställningar måste aktiveras separat.
+
+Renovates ålderskontroll heter **renovate/stability-days**. En lokal Renovate-konfiguration kan inte ensam hindra manuella merges eller undantag från branch-regler. Kräv inte den kontrollen generellt för alla pull requests utan att även hantera vanliga bidrag, eftersom Renovate inte rapporterar status på dem.
 
 ---
 
